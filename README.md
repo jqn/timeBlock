@@ -2,7 +2,7 @@
 
 Simple React.js boilerplate with Webpack 4 and Babel 7
 
-![featured-image](https://raw.githubusercontent.com/jqn/timeBlock/master/timeBlock.jpg)
+![featured-image](https://raw.githubusercontent.com/jqn/timeBlock/master/time-block.png)
 
 ## Installation
 
