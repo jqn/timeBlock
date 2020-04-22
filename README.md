@@ -2,6 +2,8 @@
 
 Simple React.js boilerplate with Webpack 4 and Babel 7
 
+![featured-image](https://raw.githubusercontent.com/jqn/timeBlock/master/timeBlock.jpg)
+
 ## Installation
 
 - `$ git clone https://github.com/jqn/react-boilerplate.git`
