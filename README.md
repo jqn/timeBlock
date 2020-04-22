@@ -1,6 +1,6 @@
 # TimeBlok
 
-Simple React.js boilerplate with Webpack 4 and Babel 7
+React.js time zone dashboard with Webpack 4 and Babel 7
 
 ![featured-image](https://raw.githubusercontent.com/jqn/timeBlock/master/time-block.png)
 
