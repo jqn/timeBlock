@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import Header from "./containers/Header";
-import MainSection from "./containers/MainSection";
 import styled, { css, ThemeProvider } from "styled-components";
 import GlobalStyle from "./GlobalStyle.js";
 import themes from "./themes";
 import MoonSVG from "./assets/icons/moon.svg";
 import SunSVG from "./assets/icons/sun.svg";
 import ReactorLogoSVG from "./assets/logos/reactor-logo.svg";
-
-import Nav from "./components/Nav";
+import SideBar from "./containers/SideBar";
+import Nav from "./containers/Nav";
+import MainContainer from "./containers/MainContainer";
+import { FormGroup, Label, Input, Message } from "./components/TimeZoneForm";
 
 const lightTheme = () => ({
   ...themes["common"],
@@ -81,7 +81,19 @@ const App = () => {
           {theme.type === "light" && <MoonIcon onClick={setDarkTheme} />}
           {theme.type === "dark" && <SunIcon onClick={setLightTheme} />}
         </Nav>
-        {/* <MainSection /> */}
+        <SideBar>
+          <FormGroup>
+            <Label htmlFor="label">Label</Label>
+            <Input id="label" />
+            <Message>This is the validation message</Message>
+          </FormGroup>
+          <FormGroup>
+            <Label>Label 2</Label>
+            <Input />
+            <Message>This is the validation message</Message>
+          </FormGroup>
+        </SideBar>
+        <MainContainer />
       </>
     </ThemeProvider>
   );
