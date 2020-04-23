@@ -7,7 +7,7 @@ import GlobalStyle from "./GlobalStyle.js";
 import themes from "./themes";
 import MoonSVG from "./assets/icons/moon.svg";
 import SunSVG from "./assets/icons/sun.svg";
-import ReactorLogoSVG from "./assets/logos/unsplash-logo.svg";
+import ReactorLogoSVG from "./assets/logos/reactor-logo.svg";
 
 import Nav from "./components/Nav";
 
