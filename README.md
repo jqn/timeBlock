@@ -4,6 +4,10 @@ React.js time zone dashboard with Webpack 4 and Babel 7
 
 ![featured-image](https://raw.githubusercontent.com/jqn/timeBlock/master/time-block.png)
 
+## Color Palette
+
+![featured-image](https://raw.githubusercontent.com/jqn/timeBlock/master/palette.png)
+
 ## Installation
 
 - `$ git clone https://github.com/jqn/react-boilerplate.git`
